@@ -1,0 +1,13 @@
+.env
+*.env
+Catering/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/.env
+venv/
+.venv/
+pyvenv.cfg
+.idea/
+Lib/
+Scripts/
