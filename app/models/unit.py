@@ -4,7 +4,7 @@ from app.mixins.model_mixins import CommonNameModelMixin
 
 
 class Unit(CommonNameModelMixin):
-    name = models.CharField('Название', max_length=100)
+
     class Meta:
         constraints = [
             models.UniqueConstraint(fields=['name'], name='unique_unit_name')
