@@ -9,3 +9,4 @@ class UnitAdmin(admin.ModelAdmin):
     list_display_links = ('id', 'name')
     list_filter = ('user', 'name')
     search_fields = ('name',)
+    raw_id_fields = ('user',)
